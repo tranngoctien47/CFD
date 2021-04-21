@@ -1,0 +1,49 @@
+.error-text {
+    position: absolute;
+    left: 250px;
+    width: 100% !important;
+    bottom: -25px;
+    font-size: 13px;
+    color: #c00000;
+    font-weight: 100;
+}
+.errorLogin {
+    color: #c00000;
+    padding: 10px 0;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nav ul li.active {
+    background: unset;
+}
+.nav ul li a.active {
+    background: #00afab;
+    color: white;
+}
+.loading-page {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background: #00afab;
+    border-radius: 100%;
+    transform: scale(0);
+    transition: all 0.5s ease;
+    z-index: 1000;
+}
+.radio2 {
+    margin-bottom: 0 !important;
+}
+.gender2 {
+    width: 100px;
+    height: 25px;
+    padding-left: 10px;
+}
+.profile .tab .tab-content .tab1 label {
+    margin-bottom: 35px;
+}
+
+label {
+    position: relative;
+}
